@@ -10,7 +10,7 @@ st.set_page_config(page_title="Nassau Candy | Profitability", page_icon="🍬", 
 
 @st.cache_data
 def get_data():
-    return m.load_and_clean("data/Nassau_Candy_Distributor.csv")
+    return m.load_and_clean("Nassau_Candy_Distributor.csv")
 
 
 raw = get_data()
